@@ -16,7 +16,7 @@ what they did (and also if my teammates had as good of design that I thought).
 Finally, we had already implemented the two backend commands so I wanted to 
 do the other extension. 
 
-**How Many Files Changes**
+**How Many Files Changes:**  
 Because this is front-end and I worked on back-end, I'm not entirely sure
 how many files will need to be changed. However, I anticipate that it will
 be no more than two or three files, because it is a relatively small change
