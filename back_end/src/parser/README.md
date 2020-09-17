@@ -39,7 +39,7 @@ have included a graphic below. My code generates this tree, while the code under
 executing the commands themselves. Note that I did not write the execution code, but I did create the 
 data structure for storing the commands and write the code that calls the 
 `.evaluate()` method on the root node of each command.
-![](doc/Parse_Tree_Example.png) 
+![](../../../doc/Parse_Tree_Example.png) 
 
 ### Algorithm Information
 I specifically chose to use recursion to build and parse this tree because 
