@@ -35,13 +35,7 @@ Input:
 forward sum 5 sum 10 sum 20 sum 1 1
 right 90
 ```
-This is a completely valid input to a SLogo program. For simplicity, I will
-add parentheses to easily parse this. 
-```
-forward(sum(5, sum(10, sum(20, sum(1, 1)))))
-right(90)
-```
-The result of this call would be the turtle moving forward by 37 then turning right.
+This is a completely valid input to a SLogo program. The result of this call would be the turtle moving forward by 37 then turning right.
 When running this command through the parser, it will return a list of 
 two CommandNodes, each of which is the head of its own tree. To visualize the tree created by my parser, I 
 have included a graphic below. My code generates this tree and also provides a framework for executing these
